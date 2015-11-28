@@ -38,7 +38,8 @@ $(function() {
                     $('#success > .alert-success')
                         .append("<strong>Your Email has been saved! We will be in touch soon. Thank you!</strong>");
                     $('#success > .alert-success')
-                        .append('</div>');
+                        .append('</div>')
+                    $('#submitform').replaceWith('<button class="btn btn-xl"> <a href="/survery.html" class="page-scroll btn btn-xl text-center">Help us by answering our survey</a></button>' )
 
                     //clear all fields
                     $('#contactForm').trigger("reset");
