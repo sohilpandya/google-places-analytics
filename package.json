@@ -23,6 +23,8 @@
     "hoek": "^3.0.4",
     "http": "0.0.0",
     "inert": "^3.2.0",
+    "redis": "^2.4.2",
+    "redis-connection": "^4.0.1",
     "request": "^2.67.0"
   }
 }
