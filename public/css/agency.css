@@ -4,8 +4,9 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-.img-rach {
-  height: 100∞
+.sign-up {
+  height: 15em;
+  background-color: #3D3141;
 }
 
 
@@ -246,10 +247,11 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 4em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        color: #3D3141;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -259,6 +261,10 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink {
         padding: 10px 0;
         background-color: #222;
+    }
+
+    .navbar-shrink .navbar-brand {
+      color: white;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
