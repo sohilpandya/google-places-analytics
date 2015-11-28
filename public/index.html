@@ -607,16 +607,15 @@
     }).addTo(map);
 
 
-    L.marker([51.5072, 0.1275]).addTo(map)
-      .bindPopup("<b>London</b>").openPopup();
-
     L.marker([52.5167, 13.3833]).addTo(map)
       .bindPopup("<b>Berlin</b>").openPopup();
 
-
-
     L.marker([50.0614, 19.9383]).addTo(map)
       .bindPopup("<b>Krakow</b>").openPopup();
+
+    L.marker([51.5072, 0.1275]).addTo(map)
+      .bindPopup('<button class="btn btn-sm"> <a href="/propertylondon.html" class="page-scroll btn btn-xl text-center">London. Click for Properties</a></button>').openPopup();
+
   </script>
 
   <!-- Custom Theme JavaScript -->
@@ -639,7 +638,7 @@
     ga('create', 'UA-57722211-2', 'auto');
     ga('send', 'pageview');
   </script>
-  
+
 </body>
 
 </html>
