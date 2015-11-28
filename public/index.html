@@ -45,14 +45,14 @@
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand page-scroll" href="#page-top">PropertyFunder</a>
       </div>
+
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -70,12 +70,13 @@
           <!-- <li>
                         <a class="page-scroll" href="#about">What we do</a>
                     </li> -->
+
           <li>
-            <a class="page-scroll" href="#about">Get Started</a>
+            <a class="page-scroll" href="#about">How it works</a>
           </li>
-          <li>
-            <a class="page-scroll" href="#contact">Contact</a>
-          </li>
+          <!-- <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li> -->
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -89,6 +90,7 @@
       <div class="intro-text">
         <div class="intro-lead-in">Crowdfunding international property</div>
         <div class="intro-heading">Your share in global real estate.</div>
+        <div class="intro-lead-in">Invest from £100</div>
         <a href="/form.html" class="page-scroll btn btn-xl">Get started now</a>
       </div>
     </div>
@@ -233,12 +235,13 @@
         </div>
     </section> -->
 
+
   <!-- About Section -->
   <section id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">How to get started with PropertyFunder</h2>
+          <h2 class="section-heading">How it works</h2>
           <!-- <h3 class="section-subheading text-muted">Funderfund international property s</h3> -->
         </div>
       </div>
@@ -302,6 +305,76 @@
           </ul>
         </div>
       </div>
+    </div>
+  </section>
+  <section class="sign-up">
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">How to get started with PropertyFunder</h2>
+        <!-- <h3 class="section-subheading text-muted">Funderfund international property s</h3> -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          <li>
+            <div class="timeline-image">
+              <img class="img-circle img-responsive" src="img/data.jpeg" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Browser Our Data</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Property Funder aggregates a wealth of property data, completely free for you to view.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="img-circle img-responsive img-rach" src="img/invest.jpeg" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Invest in your choosen location</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Property Funder allows you access to the global property market via Funderfunding. Allowing to invest as little, or as much as you like.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image">
+              <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Analyse</h4>
+                <!-- <h4 class="subheading">Our data gives you uptodate info on your property investment.</h4> -->
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Use our location analytics technology to help validate your decision.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="img-circle img-responsive" src="img/data3.jpeg" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Invest</h4>
+                <!-- <h4 class="subheading">Phase Two Expansion</h4> -->
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">Either during an open crowdfunding window or via available shares in the secondary market.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
     </div>
   </section>
   <section class="sign-up">
@@ -454,15 +527,11 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2014</span>
+          <span class="copyright">Copyright &copy; PropertyFunder 2015</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
-            <li><a href="#"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li><a href="#"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+            <li><a href="https://twitter.com/thepropertyfund"><i class="fa fa-twitter"></i></a>
             </li>
           </ul>
         </div>
@@ -475,6 +544,9 @@
           </ul>
         </div>
       </div>
+
+    </div>
+    </div>
     </div>
   </footer>
 
@@ -517,12 +589,14 @@
           return this;
         }
 
+
         // NOTE THIS LINE : COMMENTING OUT THE CLOSEPOPUP CALL
         //this.closePopup();
         this._popup = popup;
         return this.addLayer(popup);
       }
     });
+
 
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ', {
       maxZoom: 18,
@@ -539,9 +613,33 @@
     L.marker([52.5167, 13.3833]).addTo(map)
       .bindPopup("<b>Berlin</b>").openPopup();
 
+
+
     L.marker([50.0614, 19.9383]).addTo(map)
       .bindPopup("<b>Krakow</b>").openPopup();
   </script>
+
+  <!-- Custom Theme JavaScript -->
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+  <script src="js/agency.js"></script>
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-57722211-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
 </body>
 
 </html>

@@ -3,11 +3,17 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+<<<<<<< HEAD
 
 #map {
   height: 45em;
 }
 
+=======
+iframe {
+  height: 120em;
+}
+>>>>>>> master
 .sign-up {
   height: 15em;
   background-color: #3D3141;
@@ -108,8 +114,13 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #222;
 }
 .navbar-default .navbar-brand {
+<<<<<<< HEAD
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
   color: #F5B065;
+=======
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #F5B065;
+>>>>>>> master
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active {
   color: #fec503;
@@ -254,9 +265,16 @@ section h3.section-subheading {
   margin: 15px 0;
   text-transform: none;
 }
+<<<<<<< HEAD
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
+=======
+
+/*#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+>>>>>>> master
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
@@ -314,10 +332,18 @@ section h3.section-subheading {
   z-index: 2;
 }
 @media(min-width:767px) {
+<<<<<<< HEAD
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
 }
+=======
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}*/
+
+>>>>>>> master
 .timeline {
   position: relative;
   padding: 0;
