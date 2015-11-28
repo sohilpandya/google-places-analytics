@@ -3,7 +3,9 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+iframe {
+  height: 120em;
+}
 .sign-up {
   height: 15em;
   background-color: #3D3141;
@@ -181,7 +183,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #F5B065;
 }
 
@@ -361,7 +363,7 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-#portfolio .portfolio-item {
+/*#portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
@@ -436,7 +438,7 @@ section h3.section-subheading {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
-}
+}*/
 
 .timeline {
     position: relative;
