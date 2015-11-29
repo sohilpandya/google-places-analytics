@@ -157,60 +157,44 @@
       </div>
       <div class="row">
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <!-- <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal"> -->
-            <!-- <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div> -->
-
-
             <div class="legend">
               <ul class="radar-legend" style="list-style:none;text-align:left">
                 <li>
                   <div class='key' style="background-color:rgba(255, 0, 0, 1)"></div>
-                  E97HD
+                  <h4> Facilities </h4>
                 </li>
               </ul>
             </div>
             <div class="chartbackground-colour">
-              <canvas id="myChart" width="800" height="400"></canvas>
+              <canvas id="myChart" width="360" height="400"></canvas>
             </div>
-        </div>
-
-
-        <!-- </a> -->
-        <div class="portfolio-caption">
-          <h4>Hampstead</h4>
-          <p class="text-muted">Eight bedroom</p>
         </div>
       <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <i class="fa fa-plus fa-3x"></i>
-            </div>
+          <div class="legend">
+            <ul class="radar-legend" style="list-style:none;text-align:left">
+              <li>
+                <div class='key' style="background-color:rgba(255, 0, 0, 1)"></div>
+                <h4> Terraced Property Prices </h4>
+              </li>
+            </ul>
           </div>
-          <img src="http://www.bealondoner.com/myblog/files/831/1017/1_(1)_(640x424).jpg" class="img-responsive" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>Ladbroke Grove</h4>
-          <p class="text-muted">Five bedroom</p>
-        </div>
+          <div class="chartbackground-colour">
+            <canvas id="bar-chart" width="360" height="400"></canvas>
+          </div>
       </div>
+
       <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <i class="fa fa-plus fa-3x"></i>
-            </div>
+          <div class="legend">
+            <ul class="radar-legend" style="list-style:none;text-align:left">
+              <li>
+                <div class='key' style="background-color:rgba(255, 0, 0, 1)"></div>
+                <h4> Crime Statistics </h4>
+              </li>
+            </ul>
           </div>
-          <img src="" class="img-responsive" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>Floor Plan</h4>
-          <p class="text-muted"></p>
-        </div>
+          <div class="chartbackground-colour">
+            <canvas id="line-chart" width="360" height="400"></canvas>
+          </div>
       </div>
     </div>
     </div>
@@ -281,7 +265,41 @@
     var ctx = document.getElementById('myChart').getContext("2d");
     var myChart = new Chart(ctx).Radar(data, options);
     console.log(myChart.generateLegend());
+
+    var databar = {
+    labels: ["2011","2012","2013","2014","2015"],
+    datasets: [
+        {
+            label: "Average",
+            fillColor: "#74555D",
+            strokeColor: "#3D3141",
+            highlightFill: "#fff",
+            highlightStroke: "rgba(220,220,220,1)",
+            data: [450000,600000,600000,700000,800000]
+        }]
+    };
+  var ctxbar = document.getElementById('bar-chart').getContext("2d");
+  var myBarChart = new Chart(ctxbar).Bar(databar,options);
     //  myChart.labels = ["J", "F", "M", "A", "M", "J", "J"];
+
+    var dataline = {
+    labels: ["Q2 2014","Q3 2014","Q4 2014","Q1 2015","Q2 2015"],
+    datasets: [
+        {
+            label: "Crime Statistics",
+            fillColor: "#74555D",
+            strokeColor: "#3D3141",
+            pointColor: "#9589A7",
+            pointStrokeColor: "#BA864D",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: [3024, 2904, 3193, 3281, 3406, 3041]
+        }
+    ]
+};
+var ctxline = document.getElementById('line-chart').getContext("2d");
+var myLineChart = new Chart(ctxline).Line(dataline, options);
+
   </script>
 
 </body>
