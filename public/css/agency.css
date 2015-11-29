@@ -5,6 +5,29 @@
  */
 
 
+.victoria{
+  background: url(http://www.jackson-stops.co.uk/london/latest-news/wp-content/uploads/2011/12/JSHO-21-Coutnell-St-exterior2.jpg);
+  background-size: cover;
+}
+
+.propertyDetailsArea{
+  background-color: white;
+  color: black;
+  width:30em;
+  padding: 5em;
+  border-radius: 4em;
+}
+.propertyTitle, .price, .priceYield{
+  border-bottom: solid black 0.5em;
+}
+
+
+
+.sharesAvailable{
+  padding-bottom: 1em
+}
+
+
  #map {
    height: 68em;
    width:100%;
