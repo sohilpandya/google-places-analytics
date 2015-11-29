@@ -151,163 +151,55 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading">E97HD</h2>
-          <h3 class="section-subheading text-muted">Properties available for investment in London currently</h3>
+          <h2 class="section-heading">Area Overview</h2>
+          <h3 class="section-subheading text-muted">A data snapshot</h3>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-
-
             <div class="legend">
               <ul class="radar-legend" style="list-style:none;text-align:left">
                 <li>
-                  <div class='key' style="background-color:rgba(255, 0, 0, 1)"></div> E97HD
+                  <div class='key' style="background-color:rgba(255, 0, 0, 1)"></div>
+                  <h4> Facilities </h4>
                 </li>
               </ul>
             </div>
-            <div class="">
-              <canvas id="myChart" width="800" height="400"></canvas>
+            <div class="chartbackground-colour">
+              <canvas id="myChart" width="360" height="400"></canvas>
             </div>
         </div>
-
-
-        </a>
-        <div class="portfolio-caption">
-          <h4>Hampstead</h4>
-          <p class="text-muted">Eight bedroom</p>
-        </div>
-      </div>
       <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <i class="fa fa-plus fa-3x"></i>
-            </div>
+          <div class="legend">
+            <ul class="radar-legend" style="list-style:none;text-align:left">
+              <li>
+                <div class='key' style="background-color:rgba(255, 0, 0, 1)"></div>
+                <h4> Terraced Property Prices </h4>
+              </li>
+            </ul>
           </div>
-          <img src="http://www.bealondoner.com/myblog/files/831/1017/1_(1)_(640x424).jpg" class="img-responsive" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>Ladbroke Grove</h4>
-          <p class="text-muted">Five bedroom</p>
-        </div>
+          <div class="chartbackground-colour">
+            <canvas id="bar-chart" width="360" height="400"></canvas>
+          </div>
       </div>
+
       <div class="col-md-4 col-sm-6 portfolio-item">
-        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <i class="fa fa-plus fa-3x"></i>
-            </div>
+          <div class="legend">
+            <ul class="radar-legend" style="list-style:none;text-align:left">
+              <li>
+                <div class='key' style="background-color:rgba(255, 0, 0, 1)"></div>
+                <h4> Crime Statistics </h4>
+              </li>
+            </ul>
           </div>
-          <img src="" class="img-responsive" alt="">
-        </a>
-        <div class="portfolio-caption">
-          <h4>Floor Plan</h4>
-          <p class="text-muted"></p>
-        </div>
+          <div class="chartbackground-colour">
+            <canvas id="line-chart" width="360" height="400"></canvas>
+          </div>
       </div>
+    </div>
     </div>
     </div>
   </section>
-
-
-
-  <!-- Portfolio Modal 1 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <!-- Project Details Go Here -->
-              <h2>Project Name</h2>
-              <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-              <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-              <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                nostrum, reiciendis facere nemo!</p>
-              <p>
-                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set
-                <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-              <ul class="list-inline">
-                <li>Date: July 2014</li>
-                <li>Client: Round Icons</li>
-                <li>Category: Graphic Design</li>
-              </ul>
-              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>Project Heading</h2>
-              <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-              <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-              <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated
-                into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-              <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Portfolio Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <!-- Project Details Go Here -->
-              <h2>Project Name</h2>
-              <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-              <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-              <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-              <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
 
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
@@ -322,6 +214,8 @@
   <!-- Contact Form JavaScript -->
   <script src="js/jqBootstrapValidation.js"></script>
   <script src="js/contact_me.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
 
   <!-- Custom Theme JavaScript -->
 
@@ -345,12 +239,12 @@
 
   <script>
     var options = {
-      pointLabelFontColor: "#ffffff",
+      pointLabelFontColor: "#000000",
       responsive: true,
       animationSteps: 200,
       animationEasing: "easeOutExpo",
-      pointLabelFontSize: 18,
-      scaleLineColor: "#ffffff",
+      pointLabelFontSize: 14,
+      scaleLineColor: "#9589A7",
       scaleLineWidth: 1,
       maintainAspectRatio: false,
       legendTemplate: "<ul class=\"<%=name.toLowerCase()%>-legend\"><% for (var i=0; i<datasets.length; i++){%><li><span style=\"background-color:<%=datasets[i].strokeColor%>\"></span><%if(datasets[i].label){%><%=datasets[i].label%><%}%></li><%}%></ul>",
@@ -359,10 +253,10 @@
       labels: ["Restaurants", "Bars", "Parks", "Schools", "Gyms"],
       datasets: [{
         label: "E97HD",
-        fillColor: "rgba(255, 0, 0, 0.2)",
-        strokeColor: "rgba(255, 0, 0, 1)",
-        pointColor: "rgba(255, 0, 0, 1)",
-        pointStrokeColor: "#fff",
+        fillColor: "#74555D",
+        strokeColor: "#3D3141",
+        pointColor: "#9589A7",
+        pointStrokeColor: "#BA864D",
         pointHighlightFill: "#fff",
         pointHighlightStroke: "rgba(220,220,220,1)",
         data: [23, 28, 38.5, 15, 19]
@@ -371,7 +265,41 @@
     var ctx = document.getElementById('myChart').getContext("2d");
     var myChart = new Chart(ctx).Radar(data, options);
     console.log(myChart.generateLegend());
+
+    var databar = {
+    labels: ["2011","2012","2013","2014","2015"],
+    datasets: [
+        {
+            label: "Average",
+            fillColor: "#74555D",
+            strokeColor: "#3D3141",
+            highlightFill: "#fff",
+            highlightStroke: "rgba(220,220,220,1)",
+            data: [450000,600000,600000,700000,800000]
+        }]
+    };
+  var ctxbar = document.getElementById('bar-chart').getContext("2d");
+  var myBarChart = new Chart(ctxbar).Bar(databar,options);
     //  myChart.labels = ["J", "F", "M", "A", "M", "J", "J"];
+
+    var dataline = {
+    labels: ["Q2 2014","Q3 2014","Q4 2014","Q1 2015","Q2 2015"],
+    datasets: [
+        {
+            label: "Crime Statistics",
+            fillColor: "#74555D",
+            strokeColor: "#3D3141",
+            pointColor: "#9589A7",
+            pointStrokeColor: "#BA864D",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            data: [3024, 2904, 3193, 3281, 3406, 3041]
+        }
+    ]
+};
+var ctxline = document.getElementById('line-chart').getContext("2d");
+var myLineChart = new Chart(ctxline).Line(dataline, options);
+
   </script>
 
 </body>
